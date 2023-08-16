@@ -1,0 +1,22 @@
+.Prediction-form h2 {
+  font-size: 30px;
+}
+.Prediction-form h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.Prediction-form p {
+  font-size: 20px;
+  text-align: center;
+}
+.logoutp button {
+  width: 55%;
+  background-color: #4cacaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 170px;
+  margin-top: 15px;
+}

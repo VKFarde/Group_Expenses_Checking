@@ -1,0 +1,100 @@
+/* MyComponent.css */
+
+.img-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /*1920px*/
+  width: 100%;
+}
+
+.img-container {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transform: scale(0.056);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50px;
+}
+
+.login-title {
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-family: cursive;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+span {
+  color: rgb(17, 0, 253);
+  font-size: 14px;
+}
+
+.forgot-password {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  width: 420px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.signup-link {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+.login-button:hover {
+  background-color: #004289;
+  color: #ffffb6;
+}
+/* Adjust the styling as per your requirements */

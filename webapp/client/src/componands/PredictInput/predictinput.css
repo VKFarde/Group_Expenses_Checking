@@ -1,0 +1,81 @@
+.Prediction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.Prediction-img-container {
+  margin-bottom: 20px;
+  width: 50%;
+  height: 100%;
+}
+.Prediction-img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.Prediction-form {
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.Prediction-form-H1 {
+  margin-bottom: 30px;
+  margin-left: -130px;
+  font-family: cursive;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.input-group input[type="number"] {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.Prediction-form button[type="submit"] {
+  width: 55%;
+  background-color: #4cacaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.Prediction-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.Prediction-form button[type="submit"]:focus {
+  outline: none;
+}
+.logout button {
+  width: 55%;
+  background-color: #4cacaf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 120px;
+  margin-top: 15px;
+}

@@ -1,0 +1,57 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(79, 79, 79);
+  padding: 12px;
+}
+
+.hooome ul,
+.loginsignup ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hooome li,
+.loginsignup li {
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.hooome a,
+.loginsignup a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.hooome a:hover,
+.loginsignup a:hover {
+  color: #000000;
+  text-shadow: 0 0 10px #888, 0 0 20px #888, 0 0 30px #888, 0 0 40px #ccc,
+    0 0 70px #ccc, 0 0 80px #ccc, 0 0 100px #ccc, 0 0 150px #ccc;
+  animation: glowing 1.5s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #888, 0 0 20px #888, 0 0 30px #888, 0 0 40px #ccc,
+      0 0 70px #ccc, 0 0 80px #ccc, 0 0 100px #ccc, 0 0 150px #ccc;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px #888, 0 0 20px #888, 0 0 30px #888, 0 0 40px #ccc,
+      0 0 70px #ccc, 0 0 80px #ccc, 0 0 100px #ccc, 0 0 150px #ccc;
+  }
+}
+
+.loginsignup li:first-child {
+  margin-right: 10px;
+}
